@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Special Design</title>
+</head>
+
+<body>
+    <div class="setting-box">
+        <div class="gear">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="setting-container">
+            <div class="option">
+                <h4>colors</h4>
+                <ul class="colors">
+                    <li class="active" data-color="black"></li>
+                    <li data-color="red"></li>
+                    <li data-color="#1976D2"></li>
+                    <li data-color="#43A047"></li>
+                    <li data-color="#9C27B0"></li>
+                </ul>
+            </div>
+            <div class="option">
+                <h4>Background Option</h4>
+                <div class="rb">
+                    <span class="yes active" data-val="true">Yes</span>
+                    <span class="no" data-val="false">No</span>
+                </div>
+            </div>
+            <div class="option">
+                <h4>Show Bullets</h4>
+                <div class="sb">
+                    <span class="yes active" data-val="true">Yes</span>
+                    <span class="no" data-val="false">No</span>
+                </div>
+            </div>
+            <div class="option">
+                <h4>Fixed Heading</h4>
+                <div class="fh">
+                    <span class="yes" data-val="true">Yes</span>
+                    <span class="no active" data-val="false">No</span>
+                </div>
+            </div>
+            <button class="reset">Reset</button>
+        </div>
+    </div>
+    <div class="nav-bullets">
+        <div class="bullet" data-name="about">
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet" data-name="skills">
+            <div class="tooltip">Our Skills</div>
+        </div>
+        <div class="bullet" data-name="gallery">
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-name="timeline">
+            <div class="tooltip">Time Line</div>
+        </div>
+        <div class="bullet" data-name="features">
+            <div class="tooltip">Features</div>
+        </div>
+        <div class="bullet" data-name="testimonials">
+            <div class="tooltip">Testimonials</div>
+        </div>
+        <div class="bullet" data-name="contact">
+            <div class="tooltip">Contact Us</div>
+        </div>
+    </div>
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container1">
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <ul class="links">
+                    <li><a href="#" data-name="about">About</a></li>
+                    <li><a href="#" data-name="skills">Skills</a></li>
+                    <li><a href="#" data-name="gallery">Gallery</a></li>
+                    <li><a href="#" data-name="timeline">Timeline</a></li>
+                    <li><a href="#" data-name="features">Features</a></li>
+                    <li><a href="#" data-name="testimonials">Testimonials</a></li>
+                    <li><a href="#" data-name="contact">Contact Us</a></li>
+                </ul>
+                <div class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>We are <span>crearive</span> agency</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, saepe. Doloreconsectetur adipisicing
+                elit. saepe.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="about">
+            <div class="info">
+                <h2 class="title">About Us</h2>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sit rem optio
+                    consequatur id minus
+                    ea
+                    aliquid aspernatur, assumenda nam, neque quaerat delectus ducimus repellat minima necessitatibus
+                    placeat? Ducimus, blanditiis.</p>
+            </div>
+            <div class="image">
+                <img src="imgs/imag1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="container">
+            <h2 class="title">Our Skills</h2>
+            <div class="skill">
+                <div class="name">HTML</div>
+                <div class="prog">
+                    <span data-prog="95%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">CSS</div>
+                <div class="prog">
+                    <span data-prog="85%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">JavaScript</div>
+                <div class="prog">
+                    <span data-prog="90%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">Java</div>
+                <div class="prog">
+                    <span data-prog="70%"></span>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">C++</div>
+                <div class="prog">
+                    <span data-prog="60%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="container">
+            <h2 class="title">Our Gallery</h2>
+            <div class="image-box">
+                <img src="imgs/img1.jpg" alt="Image One">
+                <img src="imgs/img2.jpg" alt="Image Two">
+                <img src="imgs/img3.jpg" alt="Image Three">
+                <img src="imgs/img4.jpg" alt="Image Four">
+                <img src="imgs/img5.jpg" alt="Image Five">
+                <img src="imgs/img6.jpg" alt="Image Six">
+                <img src="imgs/img7.jpg" alt="Image Seven">
+                <img src="imgs/img8.jpg" alt="Image Eight">
+                <img src="imgs/img9.jpg" alt="Image Nine">
+                <img src="imgs/img10.jpg" alt="Image Ten">
+            </div>
+        </div>
+    </div>
+    <div class="timeline">
+        <div class="container">
+            <div class="time-content">
+                <div class="year">2023</div>
+                <div class="left">
+                    <h3>C++</h3>
+                    <p class="paragraph">C++ is my first programming language,I studied a litle of C++ and improve my
+                        self in problem
+                        solving.
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <h3>HTML && CSS</h3>
+                    <p class="paragraph">I finshed HTML && CSS corses in Elzero web school,And practice on them by doing
+                        a lot of
+                        projects.
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <h3>Java</h3>
+                    <p class="paragraph">I actually dont like Java a lot,But i had to study it so i can pass my exams.
+                    </p>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <h3>JavaScript</h3>
+                    <p class="paragraph">I enjoyed studying JavaScript,It's actually my best programming language until
+                        now.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <h2 class="title">Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imgs/download1.png" alt="">
+                <h4>Development</h4>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/download2.png" alt="">
+                <h4>Development</h4>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/download3.png" alt="">
+                <h4>Development</h4>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/download4.png" alt="">
+                <h4>Development</h4>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/download5.png" alt="">
+                <h4>Development</h4>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/download6.png" alt="">
+                <h4>Development</h4>
+                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="container">
+            <h2 class="title">Testimonials</h2>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="info">
+                    <img src="https://placehold.it/80/ddd" alt="">
+                    <h4>Hamza Alibrahim</h4>
+                    <p>CEO Company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="info">
+                    <img src="https://placehold.it/80/ddd" alt="">
+                    <h4>Hamza Alibrahim</h4>
+                    <p>CEO Company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="info">
+                    <img src="https://placehold.it/80/ddd" alt="">
+                    <h4>Hamza Alibrahim</h4>
+                    <p>CEO Company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="title">Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="User_Name">
+                    <input type="text" placeholder="Your Phone" name="User_Phone">
+                    <input type="email" placeholder="Your Email" name="User_Email">
+                    <input type="text" placeholder="Subject" name="Subject">
+                </div>
+                <div class="right">
+                    <textarea name="Message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        Created By Hamza Alibrahim
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
